@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta class="X-UA-Compatible">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+	<link rel="stylesheet" href="style1.css">
+	<link rel = "stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+	<title>Caradda</title>
+</head>
+<body>
+	<section class="header" id= "header">
+<div class = "nav-bar">
+<div class="logo">
+<a href="#"> CarAdda.com</a>
+</div>
+<div class="menu">
+<ul>
+<li><a href="#" class="active"> Cars </a></li>
+<li><a href="#"> History </a></li>
+<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeTUNou4Y47jOcajCBT59v1KIzb-T97FH50zw2GzBUGLlL2LQ/viewform"> Contact Us </a></li>
+</ul>
+</div>
+</div>
+<div class="hero">
+<div class="row">
+<div class="left-sec">
+<div class="content">
+<h2><span>chevrolet</span><br> camaro</h2>
+<p> Considered as "Greatest of all times" with its layout technology</p>
+</div>
+<button class="discover-btn">
+	<a href="#">discover</a><span><i class="fa fa-arrow-circle-o-right"></i></span>
+</button>
+<div class="information">
+  <div class="production">
+	<p>Release</p>
+	<h2>1966</h2>
+  </div>
+  <div class="production">
+	<p>Designed by</p>
+	<h2>George </h2>
+  </div>
+ </div>
+</div>
+<div class="right-sec">
+	<div class="my-car">
+		<div><img src="img/1.png"></div>
+		<div><img src="img/2.png"></div>
+		<div><img src="img/3.png"></div>
+		<div><img src="img/4.png"></div>
+		<div><img src="img/5.png"></div>
+		
+	</div>
+</div>
+
+</div>
+</div>
+
+</section>
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$(".my-car").slick({
+			autoplay:true,
+			dots:true,
+			speed:1000,
+		})
+	});
+
+</script>
+</body>
+</html>
